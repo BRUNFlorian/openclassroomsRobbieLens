@@ -5,3 +5,20 @@
 span {
   color: #a5b4fc;
 }
+
+h1 {
+    font-family: "Montserrat", serif;
+    font-size: 3em;
+    color: #a5b4fc;
+  }
+
+  p {
+    font-family: "Manrope", sans-serif;
+    font-size: 1.1em;
+  }
+
+  ul, a {
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+  }
