@@ -44,5 +44,18 @@ body {
   background: linear-gradient(90deg, #8e86b5, #acaeed);
   font-family: "Manrope", sans-serif;
   color: #f9f8ff;
-  background-color: red;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.skills {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+}
+
+a:hover {
+  color: aqua;
+}
+
+img:hover {
+  opacity: 0.5;
 }
