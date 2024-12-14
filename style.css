@@ -1,7 +1,14 @@
-.links {
+.home,
+.links,
+.prices,
+.portfolio {
   color: black;
+  padding-left: 150px;
 }
 
+body {
+  margin: 0;
+}
 span {
   font-size: 1.2em;
   color: #a5b4fc;
@@ -29,18 +36,27 @@ a {
   color: #f9f8ff;
 }
 
-.top,
-.footer {
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px 10px 40px;
   background-color: white;
   color: #242424;
 }
-
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 40px;
+  background-color: white;
+  color: #242424;
+}
 body {
   background-color: #1f2039;
 }
 
-.project,
-.portfolio {
+.project {
   background: linear-gradient(90deg, #8e86b5, #acaeed);
   font-family: "Manrope", sans-serif;
   color: #f9f8ff;
@@ -60,11 +76,6 @@ img:hover {
   opacity: 0.5;
 }
 
-.top,
-.footer {
-  padding: 20px 50px 20px 50px;
-}
-
 .content {
   padding: 80px;
 }
@@ -76,4 +87,11 @@ img:hover {
 
 .benefits {
   margin: 20px;
+}
+
+.instagram {
+  padding-left: 1230px;
+}
+.twitter {
+  padding-right: 40px;
 }
