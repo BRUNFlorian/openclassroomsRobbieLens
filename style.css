@@ -20,6 +20,7 @@ h1 {
   font-family: "Montserrat", serif;
   font-size: 3em;
   color: #a5b4fc;
+  margin-top: 0;
 }
 h2 {
   color: #f9f8ff;
@@ -60,6 +61,8 @@ a {
   font-family: "Manrope", sans-serif;
   color: #f9f8ff;
   border-radius: 50px 50px 50px 50px;
+  margin: 40px 220px 40px 0px;
+  padding: 20px 15px 20px 40px;
 }
 
 .skills {
@@ -99,10 +102,12 @@ img:hover {
 }
 
 .submission {
-  padding-right: 100px;
+  margin-left: 100px;
+  margin-right: 200px;
 }
 
-.title-h2 {
+h2 {
+  font-family: "Montserrat", serif;
   color: #1f2039;
   text-align: center;
   padding: 40px 0px 40px 0px;
@@ -112,15 +117,11 @@ img:hover {
   background-color: #ffffff;
 }
 .project-photos {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-left: 230px;
-  padding-right: 230px;
-}
-
-img {
-  padding: 10px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px;
+  justify-items: stretch;
+  grid-gap: 15px;
 }
 
 .link-portfolio {
@@ -128,4 +129,12 @@ img {
   font-family: "Manrope", sans-serif;
   color: #f9f8ff;
   border-radius: 50px 50px 50px 50px;
+  display: flex;
+  justify-content: center;
+  margin: 40px 630px 40px 630px;
+  padding: 20px 40px 20px 40px;
+}
+
+.image-robbie {
+  margin-right: 100px;
 }
