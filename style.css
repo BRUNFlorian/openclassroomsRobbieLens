@@ -138,3 +138,37 @@ h2 {
 .image-robbie {
   margin-right: 100px;
 }
+
+.bloc-1 {
+  padding: 100px;
+  background-color: #1f2039;
+}
+
+.grid-paysages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
+  margin: 0px 300px 0px 200px;
+}
+
+.grid-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
+  margin: 0px 300px 100px 200px;
+}
+
+.grid-paysages img,
+.grid-portraits img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title-porfolio-1,
+.title-porfolio-2 {
+  font-family: "Montserrat", serif;
+  color: #1f2039;
+}
