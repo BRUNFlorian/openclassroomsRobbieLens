@@ -172,3 +172,20 @@ h2 {
   font-family: "Montserrat", serif;
   color: #1f2039;
 }
+
+.wallpaper {
+  background-color: #1f2039;
+}
+
+.portrait-robbie {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
+}
+
+.portrait-robbie img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
