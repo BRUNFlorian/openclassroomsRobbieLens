@@ -211,3 +211,25 @@ h2 {
 .portrait {
   position: relative;
 }
+.wallpaper-tarifs {
+  background-color: #1f2039;
+  padding-bottom: 100px;
+}
+.prices-table {
+  color: #ffffff;
+}
+table {
+  font-family: "Manrope", sans-serif;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td,
+th {
+  border: 2px solid #a5b4fc;
+  padding: 50px;
+}
+
+.space-prices {
+  margin: 50px;
+}
