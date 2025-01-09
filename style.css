@@ -233,3 +233,34 @@ th {
 .space-prices {
   margin: 50px;
 }
+
+.h3-project {
+  font-family: "Montserrat", serif;
+  font-size: 1.3em;
+  color: #a5b4fc;
+  padding: 30px 0px 20px 0px;
+}
+
+#form-page {
+  background-color: #1f2039;
+  text-align: center;
+}
+
+.identity {
+  color: #ffffff;
+}
+
+.contact {
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  background: linear-gradient(90deg, #8e86b5, #acaeed);
+  font-family: "Montserrat", serif;
+  font-size: 1.1em;
+  color: #f9f8ff;
+  border-radius: 40px 40px 40px 40px;
+  padding: 10px 50px 10px 50px;
+  margin: 10px 0px 40px 0px;
+  border-color: #8e86b5;
+}
