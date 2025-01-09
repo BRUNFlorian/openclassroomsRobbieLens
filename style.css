@@ -248,12 +248,22 @@ th {
 
 .identity {
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 20px;
 }
 
 .contact {
   color: #ffffff;
+  display: flex;
+  justify-content: center;
 }
 
+textarea {
+  width: 510px;
+  height: 200px;
+}
 input[type="submit"] {
   background: linear-gradient(90deg, #8e86b5, #acaeed);
   font-family: "Montserrat", serif;
@@ -264,3 +274,4 @@ input[type="submit"] {
   margin: 10px 0px 40px 0px;
   border-color: #8e86b5;
 }
+
