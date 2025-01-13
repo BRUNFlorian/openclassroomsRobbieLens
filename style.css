@@ -66,8 +66,9 @@ a {
 }
 
 .skills {
-  border-right: 1px solid #8e86b5;
-  border-bottom: 1px solid #8e86b5;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 a:hover {
@@ -85,7 +86,10 @@ img:hover {
 }
 
 .benefits {
-  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
 }
 
 .instagram {
@@ -258,6 +262,7 @@ th {
   color: #ffffff;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 textarea {
@@ -274,4 +279,3 @@ input[type="submit"] {
   margin: 10px 0px 40px 0px;
   border-color: #8e86b5;
 }
-
